@@ -1,0 +1,26 @@
+{
+  "name": "bienesraices",
+  "version": "1.0.0",
+  "description": "App de administracion de bienes raices",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start": "node ./index.js",
+    "server": "nodemon ./index.js"
+  },
+  "keywords": [
+    "MVC",
+    "Pug",
+    "Tailwind",
+    "MySQL",
+    "Sequelize"
+  ],
+  "author": "graciany baeza",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
