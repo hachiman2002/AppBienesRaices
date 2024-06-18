@@ -19,9 +19,14 @@
   "author": "graciany baeza",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "csurf": "^1.11.0",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "express-validator": "^7.1.0",
     "mysql2": "^3.9.9",
+    "nodemailer": "^6.9.13",
     "pug": "^3.0.3",
     "sequelize": "^6.37.3"
   },

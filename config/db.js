@@ -8,8 +8,9 @@ const db = new Sequelize(process.env.BD_NOMBRE,process.env.BD_USER, process.env.
     port: 3306,
     dialect: 'mysql',
     define:{
-        timestamps:true
+        timestamps:true 
     },
+    //El pool configura como va a ser el comportamiento para conexiones nueva o existentes
     pool:{
         max:5,
         min:0,
